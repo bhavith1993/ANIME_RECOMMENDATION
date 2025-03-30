@@ -1,0 +1,24 @@
+[2025-03-30 11:09:51,264] 30 src.data_processing - INFO - DataProcessing Intialized
+[2025-03-30 11:09:53,019] 35 src.data_processing - INFO - Data loaded sucesfully for Data Processing
+[2025-03-30 11:09:53,314] 43 src.data_processing - INFO - Filtered users sucesfully...
+[2025-03-30 11:09:55,514] 53 src.data_processing - INFO - Scalind done for Processing 
+[2025-03-30 11:09:55,901] 72 src.data_processing - INFO - Encoding done for Users and Anime
+[2025-03-30 11:09:57,057] 95 src.data_processing - INFO - Data splitted sucesfullyy
+[2025-03-30 11:09:57,084] 111 src.data_processing - INFO - user2user_encoded saved sucesfully in processed directory
+[2025-03-30 11:09:57,114] 111 src.data_processing - INFO - user2user_decoded saved sucesfully in processed directory
+[2025-03-30 11:09:57,221] 111 src.data_processing - INFO - anim2anime_encoded saved sucesfully in processed directory
+[2025-03-30 11:09:57,323] 111 src.data_processing - INFO - anim2anime_decoded saved sucesfully in processed directory
+[2025-03-30 11:10:08,186] 120 src.data_processing - INFO - ALl the training testing data as well as rating_df is saved now..
+[2025-03-30 11:10:24,387] 156 src.data_processing - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+[2025-03-30 11:10:24,389] 172 src.data_processing - INFO - Data Processing Pipeline Run sucesfully ......
+[2025-03-30 11:10:29,779] 23 src.model_training - INFO - Model training & COMET ML initialized....
+[2025-03-30 11:10:30,006] 35 src.model_training - INFO - Data loaded sucesfully for Model Trainig
+[2025-03-30 11:10:30,113] 17 utils.common_functions - INFO - Succesfully read the YAML file
+[2025-03-30 11:10:30,113] 13 src.base_model - INFO - Loaded configuration from config.yaml
+[2025-03-30 11:10:30,949] 43 src.base_model - INFO - Model created succesfully....
+[2025-03-30 11:11:33,726] 91 src.model_training - INFO - Model training Completedd.....
+[2025-03-30 11:11:33,727] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2025-03-30 11:11:33,787] 123 src.model_training - INFO - Model saved to artifacts/models\model.h5
+[2025-03-30 11:11:33,792] 114 src.model_training - INFO - Extracting weights for user_embedding
+[2025-03-30 11:11:33,804] 114 src.model_training - INFO - Extracting weights for anime_embedding
+[2025-03-30 11:11:33,886] 135 src.model_training - INFO - User and Anime weights saved sucesfully....

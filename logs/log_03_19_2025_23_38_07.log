@@ -1,0 +1,6 @@
+[2025-03-19 23:38:07,932] 17 utils.common_functions - INFO - Succesfully read the YAML file
+[2025-03-19 23:38:07,933] 19 __main__ - INFO - Data Ingestion started
+[2025-03-19 23:38:07,933] 49 __main__ - INFO - Data Ingestion started..............
+[2025-03-19 23:38:07,933] 44 __main__ - ERROR - Error while downloading files
+[2025-03-19 23:38:07,934] 53 __main__ - ERROR - CustomException : Error in C:\Users\abcde\OneDrive\Desktop\Machine Learning\Anime_Recommendatio_System\ANIME\src\data_ingestion.py , line 24 : Failed to download files
+[2025-03-19 23:38:07,934] 56 __main__ - INFO - Data Ingestion completed

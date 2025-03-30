@@ -1,0 +1,12 @@
+[2025-03-29 23:01:03,285] 30 __main__ - INFO - DataProcessing Intialized
+[2025-03-29 23:01:05,379] 35 __main__ - INFO - Data loaded sucesfully for Data Processing
+[2025-03-29 23:01:05,621] 43 __main__ - INFO - Filtered users sucesfully...
+[2025-03-29 23:01:07,754] 53 __main__ - INFO - Scalind done for Processing 
+[2025-03-29 23:01:08,013] 72 __main__ - INFO - Encoding done for Users and Anime
+[2025-03-29 23:01:09,102] 95 __main__ - INFO - Data splitted sucesfullyy
+[2025-03-29 23:01:09,135] 111 __main__ - INFO - user2user_encoded saved sucesfully in processed directory
+[2025-03-29 23:01:09,170] 111 __main__ - INFO - user2user_decoded saved sucesfully in processed directory
+[2025-03-29 23:01:09,289] 111 __main__ - INFO - anim2anime_encoded saved sucesfully in processed directory
+[2025-03-29 23:01:09,356] 111 __main__ - INFO - anim2anime_decoded saved sucesfully in processed directory
+[2025-03-29 23:01:19,083] 120 __main__ - INFO - ALl the training testing data as well as rating_df is saved now..
+[2025-03-29 23:01:30,696] 174 __main__ - ERROR - Error in C:\Users\abcde\OneDrive\Desktop\Machine Learning\Anime_Recommendatio_System\ANIME\src\data_processing.py , line 153 : Failed to save animje and anime_synopsis data
