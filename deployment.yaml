@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anime-cluster
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: anime-cluster
+  template:
+    metadata:
+      labels:
+        app: anime-cluster
+    spec:
+      containers:
+      - name: anime-cluster-container
+        image: gcr.io/affable-operand-454200-b7/anime-recommendation
+        ports:
+        - containerPort: 5000  # Replace with the port your app listens on
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ml-app-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: ml-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
