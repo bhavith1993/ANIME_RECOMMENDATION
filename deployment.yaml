@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: anime-cluster
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: anime-cluster
@@ -21,11 +21,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: ml-app-service
+  name: anime-cluster
 spec:
   type: LoadBalancer
   selector:
-    app: ml-app
+    app: anime-cluster
   ports:
   - protocol: TCP
     port: 80
